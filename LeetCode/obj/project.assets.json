@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tell6530/LeetCode/LeetCode/LeetCode.csproj",
+      "projectUniqueName": "/Users/tell6530/Programming/LeetCode/LeetCode/LeetCode.csproj",
       "projectName": "LeetCode",
-      "projectPath": "/Users/tell6530/LeetCode/LeetCode/LeetCode.csproj",
+      "projectPath": "/Users/tell6530/Programming/LeetCode/LeetCode/LeetCode.csproj",
       "packagesPath": "/Users/tell6530/.nuget/packages/",
-      "outputPath": "/Users/tell6530/LeetCode/LeetCode/obj/",
+      "outputPath": "/Users/tell6530/Programming/LeetCode/LeetCode/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
