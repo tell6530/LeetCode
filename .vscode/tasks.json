@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/LeetCode/LeetCode.csproj",
+        "${workspaceFolder}/LeetCode/CSharp/LeetCode.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -19,7 +19,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/LeetCode/LeetCode.csproj",
+        "${workspaceFolder}/LeetCode/CSharp/LeetCode.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -32,11 +32,25 @@
       "args": [
         "watch",
         "run",
-        "${workspaceFolder}/LeetCode/LeetCode.csproj",
+        "${workspaceFolder}/LeetCode/CSharp/LeetCode.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "type": "shell",
+      "label": "g++.exe build active file",
+      "command": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "C:\\msys64\\mingw64\\bin"
+      }
     }
   ]
 }

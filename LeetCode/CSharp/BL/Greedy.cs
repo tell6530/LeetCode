@@ -1,6 +1,6 @@
 using System;
 
-namespace LeetCode.BL
+namespace LeetCode.CSharp.BL
 {
     public class Greedy
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace LeetCode.BL
+namespace LeetCode.CSharp.BL
 {
     public class DynamicProgramming
     {

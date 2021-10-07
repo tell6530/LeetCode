@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LeetCode.BL
+namespace LeetCode.CSharp.BL
 {
     public class Array
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LeetCode.BE;
+using LeetCode.CSharp.BE;
 
-namespace LeetCode.BL
+namespace LeetCode.CSharp.BL
 {
     public class DepthFirstSearch
     {
