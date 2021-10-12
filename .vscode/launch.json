@@ -30,7 +30,7 @@
       "name": "gdb Launch", //// 配置名稱，將會在除錯配置下拉列表中顯示
       "type": "cppdbg", //// 偵錯程式型別：Windows表示器使用cppvsdbg；GDB和LLDB使用cppdbg。該值自動生成
       "request": "launch", //// 除錯方式
-      "program": "${workspaceFolder}/LeetCode/CPP/main.exe", //// 要除錯的程式（完整路徑，支援相對路徑）
+      "program": "${fileDirname}/${fileBasenameNoExtension}", //// 要除錯的程式（完整路徑，支援相對路徑）
       "args": [], //// 傳遞給上面程式的引數，沒有引數留空即可
       "stopAtEntry": true, //// 是否停在程式入口點（停在main函式開始）
       "cwd": "${workspaceFolder}", //// 除錯程式時的工作目錄
