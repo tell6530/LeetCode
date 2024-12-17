@@ -1,0 +1,58 @@
+# Ignore build directories
+bin/
+obj/
+debug/
+release/
+out/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Ignore lock files
+project.lock.json
+project.fragment.lock.json
+
+# Ignore Visual Studio Code settings
+.vscode/
+*.code-workspace
+
+# Ignore package directories and files
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.vs/
+
+# Ignore generated files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.cache
+*.csproj.csproj.user
+*.sln.ide
+
+# Ignore temporary/system files
+*.tmp
+*.swp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore Rider/JetBrains settings
+.idea/
+*.sln.iml
+
+# Ignore generated files for NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Ignore Mono auto-generated files
+mono_crash.*
