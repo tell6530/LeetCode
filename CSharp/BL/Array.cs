@@ -30,5 +30,30 @@ namespace LeetCode.CSharp.BL
 
             return null;
         }
+
+        /// <summary>
+        /// No.1475 Final Prices With a Special Discount in a Shop(Easy)
+        /// </summary>
+        public int[] FinalPrices(int[] prices)
+        {
+            var length = prices.Length;
+            var result = new int[length];
+
+            for (int i = 0; i < length; i++)
+            {
+                result[i] = prices[i];
+
+                for (int j = i + 1; j < length; j++)
+                {
+                    if (prices[j] <= prices[i])
+                    {
+                        result[i] = prices[i] - prices[j];
+                        break;
+                    }
+                }
+            }
+
+            return result;
+        }
     }
 }
