@@ -9,11 +9,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.1 Two Sum(Easy)
         /// </summary>
-        /// <param name="nums">List of numbers</param>
-        /// <param name="target">Target number</param>
-        /// <returns>
-        /// Array of index
-        /// </returns>
         public int[] TwoSum(int[] nums, int target)
         {
             var remainValueAndIndexDic = new Dictionary<int, int>();

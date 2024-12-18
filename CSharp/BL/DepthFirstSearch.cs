@@ -8,11 +8,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.100 Same Tree(Easy)
         /// </summary>
-        /// <param name="p">Binary tree node</param>
-        /// <param name="q">Binary tree node</param>
-        /// <returns>
-        /// Is same tree or not
-        /// </returns>
         public bool IsSameTree(TreeNode p, TreeNode q)
         {
             if (p == null && q != null) return false;

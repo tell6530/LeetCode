@@ -7,11 +7,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.21 Merge Two Sorted Lists(Easy)
         /// </summary>
-        /// <param name="l1">ListNode</param>
-        /// <param name="l2">ListNode</param>
-        /// <returns>
-        /// ListNode
-        /// </returns>
         public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {
             if (l1 == null) return l2;

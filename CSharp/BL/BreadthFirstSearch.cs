@@ -9,10 +9,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.101 Symmetric Tree(Easy)
         /// </summary>
-        /// <param name="root">Binary tree node</param>
-        /// <returns>
-        /// Is Symmetric tree or not
-        /// </returns>
         public bool IsSymmetric(TreeNode root)
         {
             var result = true;

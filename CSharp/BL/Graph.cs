@@ -7,11 +7,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.997 Find the Town Judge(Easy)
         /// </summary>
-        /// <param name="N">Number of people</param>
-        /// <param name="trust">Graph of trust</param>
-        /// <returns>
-        /// The town judge
-        /// </returns>
         public int FindJudge(int N, int[][] trust)
         {
             if (trust.Length == 0 && N == 1) return 1;

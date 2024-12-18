@@ -7,10 +7,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.122 Best Time to Buy and Sell Stock II(Easy)
         /// </summary>
-        /// <param name="prices">List of prices</param>
-        /// <returns>
-        /// Maxinum profit
-        /// </returns>
         public int MaxProfit(int[] prices)
         {
             if (prices.Length == 1) return 0;

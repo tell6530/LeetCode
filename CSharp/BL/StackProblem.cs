@@ -9,10 +9,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.20 Valid Parentheses(Easy)
         /// </summary>
-        /// <param name="s">string</param>
-        /// <returns>
-        /// Is parentheses valid
-        /// </returns>
         public bool IsValid(string s)
         {
             var stack = new Stack();

@@ -8,10 +8,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.121 Best Time to Buy and Sell Stock(Easy)
         /// </summary>
-        /// <param name="prices">List of prices</param>
-        /// <returns>
-        /// Maxinum profit
-        /// </returns>
         public int MaxProfit(int[] prices)
         {
             var minPrice = 0;
@@ -29,10 +25,6 @@ namespace LeetCode.CSharp.BL
         /// <summary>
         /// No.746 Min Cost Climbing Stairs(Easy)
         /// </summary>
-        /// <param name="cost">List of non-negative cost</param>
-        /// <returns>
-        /// Mininum cost of climbing stairs
-        /// </returns>
         public int MinCostClimbingStairs(int[] cost)
         {
             var arrayLength = cost.Length;
